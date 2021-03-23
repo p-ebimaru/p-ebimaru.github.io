@@ -19,6 +19,15 @@ header {
   -webkit-background-size: cover;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
+  .wrapper {
+    background-image:url(../img/topimage.jpg);
+    background-repeat:no-repeat;
+    width:64px;height:32px;
+    background-size:64px 32px;
+  }
+}
+
 
 
 .top-text {
