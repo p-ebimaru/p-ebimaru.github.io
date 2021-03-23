@@ -11,12 +11,6 @@ section h2 {
 }
 
 /* ヘッダー */
-/* header {
-  background-image: url(../img/topimage.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-} */
 
 header .top:after {
   content:"";
@@ -62,10 +56,8 @@ nav i {
 
 /* プロフィール */
 #profile {
-  background-image: url(../img/prof.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  background: linear-gradient(-135deg, #7cc7f5, #E4E5E6);
+  padding: 200px 0;
 }
 
 #profile .container {
@@ -139,10 +131,7 @@ nav i {
 
 /* サービス */
 #service {
-  background-image: url(../img/prof.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  background: linear-gradient(-135deg, #7cc7f5, #E4E5E6);
   padding: 200px 0;
 }
   
@@ -181,10 +170,7 @@ nav i {
 
 /* お問い合わせ */
 #contact  {
-  background-image: url(../img/prof.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  background: linear-gradient(-135deg, #7cc7f5, #E4E5E6);
   padding: 200px 0;
 }
 
