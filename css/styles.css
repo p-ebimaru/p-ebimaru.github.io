@@ -18,7 +18,7 @@ section h2 {
   background-position: center center;
 } */
 
-header .wrapper:before {
+header .top:after {
   content:"";
   display:block;
   position:fixed;
@@ -64,8 +64,8 @@ nav i {
 #profile {
   background-image: url(../img/prof.jpg);
   background-size: cover;
-  padding: 200px 0;
   background-attachment: fixed;
+  background-position: center center;
 }
 
 #profile .container {
@@ -141,9 +141,11 @@ nav i {
 #service {
   background-image: url(../img/prof.jpg);
   background-size: cover;
-  padding: 200px 0;
   background-attachment: fixed;
+  background-position: center center;
+  padding: 200px 0;
 }
+  
 
 #service h2 {
   margin-bottom: 40px;
@@ -182,8 +184,10 @@ nav i {
   background-image: url(../img/prof.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
   padding: 200px 0;
 }
+
 
 #contact h2 {
   margin-bottom: 40px;
