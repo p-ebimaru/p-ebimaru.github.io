@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  color: rgb(20, 36, 54);
+  /* color: rgb(20, 36, 54); */
+  color: pink;
 }
 
 section h2 {
@@ -11,10 +12,23 @@ section h2 {
 }
 
 /* ヘッダー */
-header {
+/* header {
   background-image: url(../img/topimage.jpg);
   background-size: cover;
   background-attachment: fixed;
+} */
+
+header .wrapper::before {
+  background: url(../img/topimage.jpg) no-repeat center;/* 画像（ここにfixedは入れない） */
+  background-size: cover;/* cover指定できる */
+  content: url("../img/topimage.jpg");
+  display: block;
+  position: fixed;/* 擬似要素ごと固定 */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;/* 横幅いっぱい */
+  height: 100vh;/* 縦幅いっぱい */
 }
 
 .top-text {
