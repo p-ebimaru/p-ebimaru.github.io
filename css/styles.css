@@ -13,10 +13,10 @@ section h2 {
 /* ヘッダー */
 header {
   background-image: url(../img/topimage.jpg);
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  background-size: auto;
+  
 }
 
 
