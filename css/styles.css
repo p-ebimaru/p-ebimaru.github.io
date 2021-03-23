@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* color: rgb(20, 36, 54); */
-  color: pink;
+  color: rgb(20, 36, 54);
 }
 
 section h2 {
@@ -18,7 +17,7 @@ section h2 {
   background-attachment: fixed;
 } */
 
-header .wrapper::before {
+header .wrapper::after {
   background: url(../img/topimage.jpg) no-repeat center;/* 画像（ここにfixedは入れない） */
   background-size: cover;/* cover指定できる */
   content: url("../img/topimage.jpg");
