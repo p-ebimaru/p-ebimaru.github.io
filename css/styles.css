@@ -18,16 +18,18 @@ section h2 {
 } */
 
 header .wrapper::after {
-  background: url(./images/bg.png) no-repeat center;/* 画像（ここにfixedは入れない） */
-  background-size: cover;/* cover指定できる */
   content: url("../img/topimage.jpg");
-  display: block;
-  position: fixed;/* 擬似要素ごと固定 */
+  position: fixed;
   top: 0;
+  height: 100vh;
   left: 0;
+  right: 0;
   z-index: -1;
-  width: 100%;/* 横幅いっぱい */
-  height: 100vh;/* 縦幅いっぱい */
+  background: url("/img/bg.png") center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .top-text {
