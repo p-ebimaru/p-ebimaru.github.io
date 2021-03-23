@@ -11,13 +11,13 @@ section h2 {
 }
 
 /* ヘッダー */
-/* header {
+header {
   background-image: url(../img/topimage.jpg);
   background-size: cover;
   background-attachment: fixed;
-} */
+}
 
-header .wrapper::after {
+/* header .wrapper::after {
   content: url("../img/topimage.jpg");
   position: fixed;
   top: 0;
@@ -32,7 +32,14 @@ header .wrapper::after {
   -o-background-size: cover;
   background-size: cover;
   
+} */
+
+@media (-webkit-device-pixel-ratio: 2) {
+  .wrapper {
+    background-image: url("../img/topimage.jpg");
+  }
 }
+
 
 .top-text {
   text-align: center;
