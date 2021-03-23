@@ -20,21 +20,18 @@ section h2 {
 
   
 
- header .wrapper::after {
-  content: url("../img/topimage.jpg");
-  position: fixed;
-  top: 0;
-  height: 100vh;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  background: url("/img/bg.png") center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
-
+.wrapper::before {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100vw;
+  height:100vh;
+  background:url("../img/topimage.jpg") no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
+  content:"";
+}
 
 .top-text {
   text-align: center;
