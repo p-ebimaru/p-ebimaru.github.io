@@ -11,16 +11,16 @@ section h2 {
 }
 
 /* ヘッダー */
-/* header {
+header {
   background-image: url(../img/topimage.jpg);
   background-size: cover;
   background-attachment: fixed;
-} */
+}
 
 header .wrapper::after {
   background: url(../img/topimage.jpg) no-repeat center;/* 画像（ここにfixedは入れない） */
   background-size: cover;/* cover指定できる */
-  content: url("../img/topimage.jpg");
+  content: "";
   display: block;
   position: fixed;/* 擬似要素ごと固定 */
   top: 0;
