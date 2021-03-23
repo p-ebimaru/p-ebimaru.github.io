@@ -13,32 +13,11 @@ section h2 {
 /* ヘッダー */
 header {
   background-image: url(../img/topimage.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
+  background-position: center center;
 }
 
-/* header .wrapper::after {
-  content: url("../img/topimage.jpg");
-  position: fixed;
-  top: 0;
-  height: 100vh;
-  width: 100%;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  background: url("/img/bg.png") center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-} */
-
-@media (-webkit-device-pixel-ratio: 2) {
-  .wrapper {
-    background-image: url("../img/topimage.jpg");
-  }
-}
 
 
 .top-text {
