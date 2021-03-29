@@ -167,6 +167,10 @@ nav i {
   margin-bottom: 40px;
 }
 
+#portfolio a:hover {
+  opacity: 0.8;
+}
+
 
 /* お問い合わせ */
 #contact  {
