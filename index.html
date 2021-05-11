@@ -1,227 +1,200 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <title>ebi-code | ポートフォリオサイト</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ebimaruのポートフォリオサイトです。">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="icon" href="img/fav.ico">
+ <link rel="stylesheet" href="css/styles.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <title>ebimaruのポートフォリオサイト</title>
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-    <header>
-      <div class="top">
-        <div class="top-text">
-          <h1>Ebimaru</h1>
-          <p>PORTFOLIO</p>
-        </div>
-      </div>
-    </header>
+</head>
+<body>
+  <headr id="header">
+    <h1 class="site-title"><a href="#"><img src="img/logo.svg" alt="logo"></a></h1>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><h3>Portfolio Site</h3></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#profile"><i class="far fa-user"></i> Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill"><i class="far fa-star"></i> Skill</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service"><i class="fas fa-bullseye"></i> Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio"><i class="far fa-folder-open"></i> Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"><i class="far fa-envelope"></i> Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>       
+    <nav id="nav">
+      <ul class="nav-menu">
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      <ul class="nav-info">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">instagram</a></li>
+      </ul>
     </nav>
 
-    
-    <section id="profile">
-        <h2>Profile</h2>
-        <div class="container">
-          <div class="row prof-description">
-            <div class="col-md-6">
-              <div class="prof-pic">
-                <img src="img/prof2.JPG" class="img-fluid">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="prof-text">
-                <dl>
-                  <dt>名前</dt>
-                  <dd>ebimaru（えびまる）</dd>
-                  <dt>どんな人？</dt>
-                  <dd>愛知県在住の30代。web制作のフリーランスとして活動中。<br>
-                    以前は、化粧品会社に勤務。<br>キャンペーン等のLP制作を依頼していた側でした。<br>
-                    退職を機に、プログラミングスキルの習得を決意！<br>
-                    目標は身に付けたスキルを通して誰かの役に立つこと。</dd>
-                  <dt>現時点のレベル</dt>
-                  <dd>2021年より本格的にプログラマーとして始動。<br>
-                    開始まもないですが、このサイトはゼロから作りました。
-                    </dd>
-                  <dt>アピールポイント</dt>
-                  <dd>【素早いレスポンス】【丁寧なコーディング】を心がけています。<br>もちろん、承った案件は最後まで責任を持って完遂いたします。<br>
-                    様々なご希望に応えるため、日々キル向上に精進しております。
-                    </dd>
-                </dl>
-              </div>
-            </div>
-          </div>
-        </div>
+    <button class="burger-btn">
+      <span class="bar bar-top"></span>
+      <span class="bar bar-mid"></span>
+      <span class="bar bar-bottom"></span>
+    </button>
+
+
+    <div id="mask"></div>
+  </headr>
+
+  <main>
+    <div id="video">
+      <video id="bg-video" src="video/codefv.mp4" loop autoplay muted playsinline></video>
+    </div>
+    <section id="skill">
+      <h2 class="section-title">Skill</h2>
+      <ul class="slick-area">
+        <li><img src="img/skill1.jpg" alt="skill1"></li>
+        <li><img src="img/skill2.jpg" alt="skill2"></li>
+        <li><img src="img/skill3.jpg" alt="skill3"></li>
+        <li><img src="img/skill4.jpg" alt="skill4"></li>
+        <li><img src="img/skill5.jpg" alt="skill5"></li>
+        <li><img src="img/skill6.jpg" alt="skill6"></li>
+        <li><img src="img/skill7.jpg" alt="skill7"></li>
+        <li><img src="img/skil00.jpg" alt="comingsoon"></li>
+        <li><img src="img/skil00.jpg" alt="comingsoon"></li>
+      </ul>
     </section>
   
-
-
-    <!-- スキル内容を入れる -->
-    <section id="skill">
-      <h2>Skill</h2>
-      <div class="container">
-        <div class="row justify-content-evenly">
-          <div class="col-md-4">
-            <div class="skill-text">
-              <h3>使用言語</h3>
-              <p>HTML/CSS</p>
-                <i class="fab fa-html5 fa-4x"></i>
-                <i class="fab fa-css3-alt fa-4x skill-icon"></i>
+    <secrion id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="flex">
+        <ul class="portfolio-item">
+          <li><a href="https://p-ebimaru.github.io/stationerystore/" target="_blank">
+            <img class="fadein" src="img/portfolio1.png" alt="pic1">
+            <div class="portfolio-memo">
+              <p class="category">ストアサイト</p>
+              <p class="item-text">トップページのみ作成。<br>【使用言語:HTML/CSS】【制作時間:3時間程】【レスポンシブ対応】</p>
+              <p class="item-date">2021.04.27</p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-text">
-              <h3>フレームワーク</h3>
-              <p>Bootstrap</p>
-              <i class="fab fa-bootstrap fa-4x"></i>
+           </a> 
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
             </div>
-          </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+          <li><a href="#">
+            <img class="fadein" src="img/portfolio00.jpg" alt="portfolio-comingsoon">
+            <div class="portfolio-memo">
+              <p class="category">category</p>
+              <p class="item-text">テキストテキストテキストテキストテキストテキ
+                ストテキストテキスト
+              </p>
+              <p class="item-date">XXXX.XX.XX</p>
+            </div>
+           </a>
+          </li>
+        </ul>
+      </div>
+  
+    </secrion>
+    <secrion id="contact">
+      <h2 class="section-title">CONTACT</h2>
+      <div class="flex">
+        <div class="contact-text">
+          <p>ebi-codeへようこそ</p>
+          <p>名古屋在住・フリーで活動中のebimaruです。スキル向上に勤めながら日々様々な作品を作りUPしていくのでぜひご覧くださいませ。</p>
+          <p>このポートフォリオサイトは、HTML・CSS・Js・Jqを使って作成しました。作成時間は・・・、14時間ほど。正直あまり覚えていません。次回は、時間を計ってチャレンジします！
+          </p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <dl>
+              <dt><label for="name">Name:</label></dt>
+              <dd><input type="text" name="name"></dd>
+              <dt><label for="email">Mail:</label></dt>
+              <dd><input type="email" name="email"></dd>
+              <dt><label for="message">Message:</label></dt>
+              <dd><textarea  id="message" name="your-message"></textarea></dd>
+            </dl>
+            <button class="submit-btn"><input type="submit" value="SEND"></button>
+          </form>
         </div>
       </div>
-    </section>
-   
-    <section id="service">
-      <h2>Service</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="info">
-              <h3>ホームページ制作</h3>
-              <i class="fas fa-user fa-4x"></i>
-              <p>ホームページの制作を承ります。</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info">
-              <h3>LP制作</h3>
-              <i class="fas fa-project-diagram fa-4x"></i>
-              <p>ランディングページの制作を承ります。</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info">
-              <h3>スマホ対応</h3>
-              <i class="fas fa-laptop-code fa-4x"></i>
-              <p>レスポンシブ化を承ります。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </secrion>
+  </main>
+  <footer>
+    <p>&copy;ebi-code2021</p>
+  </footer>
 
-    <!-- ポートフォリオ-->
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="sakuhin">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <a href="https://p-ebimaru.github.io/mybook/" target="_blank"><img src="img/storsite.PNG" class="card-img-top" alt="sutorsite"></a>
-              <div class="card-body">
-                <h5 class="card-title">ストアサイト（トップページのみ）</h5>
-                <p class="card-text">【使用言語HTML/CSS】レスポンシブ対応</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://p-ebimaru.github.io/fashion/" target="_blank">
-              <img src="img/ECsite.PNG" class="card-img-top" alt="ECsite"></a>
-              <div class="card-body">
-                <h5 class="card-title">ECサイト（トップページのみ）</h5>
-                <p class="card-text">【使用言語HTML/CSS】レスポンシブ対応</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://p-ebimaru.github.io/divingBlog/" target="_blank"><img src="img/blogsite.PNG" class="card-img-top" alt="blogsite"></a>
-              <div class="card-body">
-                <h5 class="card-title">ブログ型サイト（トップページのみ）</h5>
-                <p class="card-text">【使用言語HTML/CSS】レスポンシブ対応</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- お問い合わせ -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="from">
-        <div class="mb-3">
-          <label for="validationCustom01" class="form-label">NAME</label>
-          <input type="text" class="form-control">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="d-grid gap-2 col-3 mx-auto">
-          <button class="btn" type="submit" value="submit">送信</button>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <p>&copy;2021 Ebimaru</p>
-    </footer>
-
-
-
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-  </body>
+  <script src="js/main.js"></script>
+</body>
 </html>
